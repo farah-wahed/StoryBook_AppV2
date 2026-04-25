@@ -30,12 +30,12 @@ class AppRoutes {
           builder: (context) => const LayoutView(),
           settings: settings,
         );
-      case PageRoutesName.newEvent:
+      case PageRoutesName.newStory:
         return MaterialPageRoute(
           builder: (context) => const NewStoryView(),
           settings: settings,
         );
-      case PageRoutesName.showEvent:
+      case PageRoutesName.showStory:
         return MaterialPageRoute(
           builder: (context) => const ShowStoryView(),
           settings: settings,
