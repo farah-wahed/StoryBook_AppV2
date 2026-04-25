@@ -103,7 +103,7 @@ class _NewStoryViewState extends State<NewStoryView> {
                         margin: const EdgeInsets.all(10),
                         padding: const EdgeInsets.all(8),
                         decoration: BoxDecoration(
-                          color: Colors.black.withOpacity(0.6),
+                          color: Colors.black,
                           borderRadius: BorderRadius.circular(10),
                         ),
                         child: const Icon(
